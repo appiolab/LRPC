@@ -24,7 +24,7 @@
       },
     "autoload":{
 	    "psr-4":{
- 		  "AppioLab\\LRPC\\":"src/"
+ 		  "AppioLab\\LRPC\\":"src/lrpc/"
 		}
      }
 }
