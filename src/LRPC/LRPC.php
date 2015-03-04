@@ -6,14 +6,17 @@ namespace AppioLab\LRPC;
  * Class LRPC
  * Lightspeed Restaurant PHP Client.
  *
+ *
  * @author Ariful Haque <arifulhb@gmail.com>
  *
  * @package AppioLab\LRPC
- * @version 0.1.0
+ * @version 0.1.1
  *
  * @copyright MIT
  */
-class LRPC{
+
+// Filename Case updated from LRPC to Lrpc
+class Lrpc{
 
     private $_server_url 	= null;
 

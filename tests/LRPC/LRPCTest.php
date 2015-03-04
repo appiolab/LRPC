@@ -14,7 +14,7 @@ namespace AppioLab\Tests\LRPC;
  *
  */
 
-include(__DIR__ . '/../../src/LRPC/lrpc.php');
+include(__DIR__ . '/../../src/LRPC/LRPC.php');
 
 
 use AppioLab\LRPC\LRPC;
