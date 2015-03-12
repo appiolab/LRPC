@@ -11,7 +11,7 @@
             "role": "Developer"
         }
     ],
-    "keywords":["pos","lightspeed","posios","restourant"],
+    "keywords":["pos","lightspeed","posios","restourant","lightspeedpos"],
     "support": {
       "email": "arifulhb@gmail.com"
     },
@@ -25,6 +25,6 @@
     "autoload":{
 	    "psr-4":{
  		  "AppioLab\\LRPC\\":"src/lrpc/"
-		}l
+		}
      }
 }
