@@ -6,14 +6,17 @@ namespace AppioLab\LRPC;
  * Class LRPC
  * Lightspeed Restaurant PHP Client.
  *
+ *
  * @author Ariful Haque <arifulhb@gmail.com>
  *
  * @package AppioLab\LRPC
- * @version 0.1.0
+ * @version 0.1.1
  *
  * @copyright MIT
  */
-class LRPC{
+
+// Filename Case updated from LRPC to Lrpc
+class Lrpc{
 
     private $_server_url 	= null;
 
@@ -245,6 +248,17 @@ class LRPC{
 
     }//end function
 
+	/**
+	 * Get Products from Lightspeed
+	 *
+	 * @since Version 0.1.1
+	 */
+	public function getProductCategories(){
+		$params=array($this->_api_token, $this->_company_id);
+
+		$response = $this->invoke(21,'posiosApi.getProductCategories', $params);
+		return $response;
+	}
 
     /**
      * @param $customer_array
