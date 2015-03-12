@@ -248,6 +248,17 @@ class Lrpc{
 
     }//end function
 
+	/**
+	 * Get Products from Lightspeed
+	 *
+	 * @since Version 0.1.1
+	 */
+	public function getProductCategories(){
+		$params=array($this->_api_token, $this->_company_id);
+
+		$response = $this->invoke(21,'posiosApi.getProductCategories', $params);
+		return $response;
+	}
 
     /**
      * @param $customer_array
